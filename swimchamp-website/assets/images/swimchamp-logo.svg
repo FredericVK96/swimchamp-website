@@ -1,0 +1,43 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for logo -->
+  <circle cx="30" cy="30" r="26" fill="#0EA5E9" stroke="#0284C7" stroke-width="2"/>
+  
+  <!-- Swimming pool water effect -->
+  <path d="M6 30c0-12 8-24 24-24s24 12 24 24-8 24-24 24-24-12-24-24z" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Swimmer silhouette -->
+  <ellipse cx="30" cy="30" rx="12" ry="6" fill="#0284C7" opacity="0.8"/>
+  <circle cx="25" cy="26" r="3" fill="#0284C7"/>
+  
+  <!-- Swimming motion lines -->
+  <path d="M18 30c3 3 9 3 12 0" stroke="#0284C7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M35 28c2 2 4 2 6 0" stroke="#0284C7" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Water splash effects -->
+  <path d="M10 38c3-3 6-3 9 0M43 38c3-3 6-3 9 0" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="8" cy="22" r="1.5" fill="#0EA5E9" opacity="0.6"/>
+  <circle cx="52" cy="35" r="2" fill="#0EA5E9" opacity="0.4"/>
+  <circle cx="15" cy="45" r="1" fill="#0EA5E9" opacity="0.7"/>
+  
+  <!-- Champion crown -->
+  <path d="M22 18 L26 22 L30 16 L34 22 L38 18 L36 25 L24 25 Z" fill="#F59E0B" stroke="#EAB308" stroke-width="1"/>
+  <circle cx="30" cy="21" r="1.5" fill="#EAB308"/>
+  
+  <!-- Text: SwimChamp -->
+  <text x="65" y="22" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#1F2937">Swim</text>
+  <text x="65" y="38" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#0EA5E9">Champ</text>
+  
+  <!-- Subtitle -->
+  <text x="65" y="48" font-family="Inter, sans-serif" font-size="7" font-weight="500" fill="#6B7280">Merelbeke • Gent</text>
+  
+  <!-- Decorative water drops -->
+  <circle cx="105" cy="15" r="2" fill="#0EA5E9" opacity="0.3">
+    <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="112" cy="25" r="1.5" fill="#10B981" opacity="0.4">
+    <animate attributeName="r" values="1.5;2.5;1.5" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="108" cy="45" r="1" fill="#F59E0B" opacity="0.5">
+    <animate attributeName="r" values="1;2;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
