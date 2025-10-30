@@ -1,0 +1,46 @@
+# Robots.txt for SwimChamp.be
+# Swimming lessons in Merelbeke, Gent & Melle
+# Professional swimming instruction by Fréderic Van Kerkhove
+
+User-agent: *
+Allow: /
+
+# Priority pages for crawling - Location pages (High SEO value)
+Allow: /pages/zwemles-gent.html
+Allow: /pages/watergewenning-merelbeke.html
+Allow: /pages/zwemles-melle.html
+
+# Core business pages
+Allow: /index.html
+Allow: /pages/diensten.html
+Allow: /pages/prijzen.html
+Allow: /pages/contact.html
+Allow: /pages/over-frederic.html
+Allow: /pages/boeken.html
+
+# Service type pages
+Allow: /pages/watergewenning.html
+Allow: /pages/zwemstromingen.html
+Allow: /pages/duo-lessen.html
+Allow: /pages/prive-lessen.html
+Allow: /pages/veelgestelde-vragen.html
+
+# Allow important directories
+Allow: /assets/
+Allow: /pages/
+Allow: /images/
+
+# Disallow unnecessary files and directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.tmp
+Disallow: /*.log
+Disallow: /*.backup
+Disallow: /SEO-STRATEGY-GUIDE.md
+
+# Sitemap location
+Sitemap: https://swimchamp.be/sitemap.xml
+
+# Crawl delay - prevents server overload
+Crawl-delay: 1
